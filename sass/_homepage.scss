@@ -181,7 +181,7 @@
   &_img {
     height: 12rem;
     width: 100%;
-    border: transparent solid 0px;
+    border: transparent solid 0;
     border-radius: 1rem 1rem 0 0;
     box-shadow: none;
     object-fit: cover;
@@ -221,15 +221,11 @@
     height: 2rem;
     width: 2rem;
     background-color: transparent;
-    border: transparent 0px solid;
+    border: transparent 0 solid;
     padding: 0;
     display: flex;
     align-items: center;
     justify-content: center;
-  }
-
-  &_like {
-    background-color: white!important;
   }
 }
 
